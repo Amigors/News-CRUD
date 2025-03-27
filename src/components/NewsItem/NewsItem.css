@@ -1,0 +1,29 @@
+.news-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.news-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.news-actions {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.news-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+
+.news-actions button:hover {
+  background: #e0e0e0;
+}

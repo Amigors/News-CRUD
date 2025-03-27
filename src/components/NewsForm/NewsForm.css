@@ -1,0 +1,32 @@
+.news-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.news-form input,
+.news-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.news-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.news-form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.news-form button:hover {
+  background: #0056b3;
+}
